@@ -111,11 +111,16 @@ ul li::before {
   margin-left: -1em; 
 }
 
+.fa {
+  font-size: 3em!important;
+}
+
 
 /* Hover color for hyperlinks */
 .hover-text-orange:hover {color:#da8f3f;}
 .hover-text-green:hover {color:#8d994d;}
 .hover-text-peach:hover {color:#d7b29b;}
+.hover-text-blue:hover {color:#2792A5}
 
 
 /* Responsive on smaller phones */
