@@ -1,0 +1,191 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;1,300&display=swap');
+
+body, html {
+  height: 100%;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300!important;
+  background-color: #fdf5e6!important;
+}
+
+
+#home {
+  min-height: 60%;
+  width: 100%;
+}
+
+/* Nav Bar */
+.nav {
+  font-weight: 400;
+}
+
+.nav-button:hover {
+  background-color: white;
+  opacity: 0.5;
+}
+
+/* Profile Picture style */
+#profile-pic {
+  width: 40vw;
+  max-width: 200px;
+  transform: rotate(-5deg);
+}
+
+.stamp {
+  width: 40vw;
+  max-width: 200px;
+  border-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/stamp-border.png) 8 round;
+  border-width: 8px;
+  border-style: solid;
+}
+
+.shadow {
+  box-shadow: -30px 20px hsla(69, 31%, 66%, 0.493);
+}
+
+img.postmark {
+  width: 100px; 
+  height:104px; 
+  position: absolute; 
+  top: 60px; right: 500px;
+}
+img.postmark2 {
+  width: 89px;
+  height: 51px;
+  position: absolute;
+  right: 20px;
+  top: 50px;
+}
+
+/* Profile Name */
+#name {
+  font-size: 90px;
+  font-weight: 100!important;
+}
+
+/* width of the html body content */
+.body-max-wid {
+  max-width:750px;
+}
+
+/* Tags for page title and subtitle */
+.title {
+  padding-top:120px!important;
+  padding-bottom:20px!important;
+}
+
+.subtitle {
+  padding-top: 48px!important;
+  padding-bottom: 20px!important;
+}
+
+
+/* Survey Banner Title */
+#survey {
+  border-width: 5px;
+  border-color: #006633;
+  border-style: solid;
+  box-shadow: 10px 10px #FFCC33;
+}
+
+
+/* edited from W3-button style */
+.w3-button2{border:none;display:inline-block;padding:8px 16px;vertical-align:middle;overflow:hidden;text-decoration:none;color:inherit;background-color:inherit;text-align:center;cursor:pointer;white-space:nowrap}
+.w3-button2:hover{
+    border-style: dashed;
+    border-color: white;
+}
+
+
+/* Unorder list style */
+ul {
+  list-style: none; 
+}
+
+ul li::before {
+  content: "\2022";  
+  color: #8d994d; 
+  font-weight: bold; 
+  display: inline-block; 
+  width: 1em; 
+  margin-left: -1em; 
+}
+
+
+/* Hover color for hyperlinks */
+.hover-text-orange:hover {color:#da8f3f;}
+.hover-text-green:hover {color:#8d994d;}
+.hover-text-peach:hover {color:#d7b29b;}
+
+
+/* Responsive on smaller phones */
+@media (max-width: 800px) {
+  .body-max-wid {
+    max-width: 600px;
+  }
+  .nav {
+    font-size: 1.5vh;
+  }
+
+  #home {
+    margin-top:60px;
+  }
+
+  #profile-pic {
+    margin-bottom:10px;
+  }
+
+  #name {
+    font-size: 70px;
+  }
+
+}
+
+@media (max-width: 600x) {
+  .body-max-wid {
+    max-width: 500px;
+  }
+
+  #home {
+    margin-top:85px;
+  }
+
+}
+
+@media (max-width: 500px) {
+  .body-max-wid {
+    max-width: 300px;
+  }
+
+  #home {
+    margin-top:75px;
+  }
+}
+
+@media (min-width: 800px) {
+  #home {
+    margin-top: 45px;
+    min-height: 50%;
+  }
+}
+
+
+
+
+/* Colors */
+.red
+{color:#fff;background-color:#b5392d}
+
+.brown
+{color:#fff;background-color:#7a2f11}
+
+.peach
+{color:#fff;background-color:#d7b29b}
+
+.orange-yellow
+{color:#fff;background-color:#da8f3f}
+
+.green
+{color:#fff;background-color:#8d994d}
+
+
